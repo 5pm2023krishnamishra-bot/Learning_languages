@@ -57,6 +57,6 @@ print(inta+intc)
 name1 = input("enter your name : ")
 print("welcome ",name1) # it'll always be a str by default
 print(type(name1))
-age1=int(input("enter your age : "))
+age1=int(input("enter your age : ")) # now it'll take the specified datatype only , on entering other datatype python will give error. 
 print("age = ",age1)
 print(type(age1))
